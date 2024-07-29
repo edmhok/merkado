@@ -1,57 +1,71 @@
-### Merkado
+### Merkado: NFT IC Marketplace on the Internet Computer
 
-Waste2Earn is a progressive mobile-responsive web application built on the Internet Computer blockchain (ICP) that allows users to convert waste into cryptocurrency tokens. It offers features like:
+Merkado is a revolutionary NFT marketplace built on the Internet Computer Blockchain (ICP) utilizing the WICP token and ICSWAP decentralized exchange. It empowers creators and collectors with a secure and user-friendly platform for minting, trading, and managing NFTs.
 
-- Waste-to-Token Conversion: Exchange W2E tokens and its Utility Tokens by recycling by weight of various waste like plastic, paper, metal,organic, electronic and glass. We will open more waste category token the soonest.
-- Token Exchange & Liquidity: Trade W2E and other tokens and contribute to liquidity pools.
-- Integrated Wallet: Send, receive, and track your W2E and other tokens with built-in features like QR scanning and transaction history. We have two wallet in Wallet v1 and BetaWallet.
-- Airdrop Support: Claim airdropped tokens for maintenance purposes. Community Engagement and participating in Whitelisting to have airdrop token on this link [https://forms.gle/A7NUvs66g8NiBTYQ8"]
+### Key Features
 
-Beta Wallet created with Canister : https://mqvnf-sqaaa-aaaap-ahhpa-cai.icp0.io/
-Github Link : [https://github.com/Wastopia/waste2earn-wallet]
+- **NFT Minting:** Merkado offers seamless NFT creation through Entrepot, a user-friendly minting tool.
+- **Collection Management:** Create and manage your own NFT collections, showcasing your digital assets with ease.
+- **ICSWAP Integration:** Leverage ICSWAP for seamless token exchange, ensuring smooth NFT transactions using WICP.
+- **Partnership Network:** Collaborate with leading ICSWAP collection partners to expand your reach and audience.
+- **ReactJS Frontend:** Experience a modern and intuitive user interface built with ReactJS for a smooth user experience.
+- **Material UI Integration:** Enjoy a visually appealing and user-friendly interface crafted with Material UI components.
+- **Candid Typescript Backend:** Ensure secure and robust functionalities with the power of Candid Typescript for backend development.
 
-### Planned Features:
+### Technology Stack
 
-Add to the following in the future:
+**Frontend:** ReactJS
+**UI Framework:** Material UI
+**Backend:** Candid Typescript
+**Blockchain:** Internet Computer (ICP)
+**Token:** WICP
+**Decentralized Exchange:** ICSWAP
+**NFT Minting Tool:** Entrepot
 
-- NFTs: Integrate non-fungible tokens (NFTs) for potential future use cases.
-- Voting: Implement a voting system for community governance.
-- Staking & Farming: Earn rewards by staking or farming W2E tokens.
-- DAO Token (EXT standard): Create a governance token for the - - Waste2Earn Decentralized Autonomous Organization (DAO).
-- Chat2Locate for messaging and easy scheduling of waste collector's pick-up
-- Automate with IoT sensor for easy weighing using Arduino ESP32
+### Getting Started
 
-### Technical Stack:
+Prerequisites:
 
-- Frontend: CRACO (Typescript, Lingui)
-- Backend: Motoko (EXT standard token)
-- Other Packages: Actor, Candid, Swap-SDK, Token-Adapter, Types, Tokens (EXT, ICRC1, ICRC2, DIP20)
-- Build Tools: CRACO React JS, pnpm
-- Monitoring: Sentry and Google Analytics
-- Deployment: goDadddy domain, vercel
+Basic understanding of blockchain technology and NFTs
+Familiarity with ReactJS and Material UI
+Knowledge of Candid Typescript for backend development
+Installation:
 
-Local development setup instructions are provided in the README.
+Clone the Merkado repository:
 
-### Project Github Repo: [https://github.com/Wastopia/waste2earn-v2]
+```
+git clone https://github.com/edmhok/merkado.git
+```
 
-### Video Prompt : [https://www.youtube.com/watch?v=D0zQSNMXbiM]
+```
+cd mercado
+```
 
-### Getting Started:
+Install dependencies:
 
-- Install the IC SDK.
-- Install Node.js.
-- Community & Resources:
+Bash
 
-- Website: [https://waste2earn.xyz]
-- Twitter: [https://twitter.com/waste2earn]
-- Discord: [https://discord.com/invite/GbnNzjQe]
-- Telegram: [https://t.me/+stHCP7ZCoKcyNWY1]
-- Medium: [https://medium.com/@waste2earn.io]
-- Gitbook: [https://waste2earn.gitbook.io/waste2earn-documentation]
-- Github: [https://github.com/Wastopia/waste2earn-v2]
-- Whitelist Form: [https://forms.gle/A7NUvs66g8NiBTYQ8]
-- Email: [mailto:hello@waste2earn.xyz]
+```
+pnpm install
+```
 
-### License:
+(Optional) Configure environment variables for API keys and connection details.
 
-MIT
+Running the Application:
+
+Start the development server:
+
+```
+pnpm run dev
+```
+
+Open http://localhost:3000 in your web browser to access the Merkado application.
+
+Contributing
+We welcome contributions from the community! If you'd like to contribute to Merkado, please refer to the CONTRIBUTING.md file for guidelines and instructions.
+
+License
+Merkado is licensed under the MIT License.
+
+Team
+Mhokzone, NFTDavao Team

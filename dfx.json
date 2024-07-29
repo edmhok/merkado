@@ -1,8 +1,8 @@
 {
   "canisters": {
-    "interface": {
+    "merkado": {
       "frontend": {
-        "entrypoint": "./public/index.html"
+        "entrypoint": "index.html"
       },
       "source": [
         "./build"

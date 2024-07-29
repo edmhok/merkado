@@ -22,8 +22,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     ...theme.typography.commonAvatar,
     ...theme.typography.mediumAvatar,
     border: "1px solid",
-    borderColor: theme.palette.mode === "dark" ? theme.palette.dark.main : theme.colors.lightLevel2,
-    background: theme.palette.mode === "dark" ? theme.palette.dark.main : theme.colors.lightLevel2,
+    borderColor: theme.palette.mode === "light" ? theme.palette.dark.main : theme.colors.lightLevel2,
+    background: theme.palette.mode === "light" ? theme.palette.dark.secondary : theme.colors.lightLevel2,
     color: theme.palette.primary.dark,
     transition: "all .2s ease-in-out",
     '&[aria-controls="menu-list-grow"],&:hover': {
@@ -66,7 +66,7 @@ export default function ThemeSelector() {
   return (
     <>
       <Box component="span" className={classes.box}>
-        <ButtonBase sx={{ borderRadius: "12px" }}>
+        <ButtonBase sx={{ borderRadius: "15px" }}>
           <Avatar
             variant="rounded"
             className={classes.headerAvatar}

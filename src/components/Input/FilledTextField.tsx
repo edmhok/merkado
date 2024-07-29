@@ -24,10 +24,10 @@ const useStyles = ({ contained, background, fullHeight, multiline, borderRadius,
         border: contained
           ? border ?? theme.palette.border.normal
           : border === true
-          ? theme.palette.border.normal
-          : border === "border0"
-          ? theme.palette.border.border0
-          : "none",
+            ? theme.palette.border.normal
+            : border === "border0"
+              ? theme.palette.border.border0
+              : "none",
         background: background
           ? background === "level3"
             ? theme.palette.background.level3

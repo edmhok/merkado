@@ -11,7 +11,7 @@ import Header from "./Header";
 const useStyles = makeStyles((theme: Theme) => {
   return {
     appBar: {
-      backgroundColor: "#f08702",
+      backgroundColor: "#F08107",
       paddingBottom: "30px"
     },
     content: {
@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme: Theme) => {
       minHeight: "calc(100vh - 64px)",
       flexGrow: 1,
       padding: "16px",
+      marginTop: "40px",
       borderRadius: "8px",
       borderBottomLeftRadius: 0,
       borderBottomRightRadius: 0,

@@ -90,7 +90,7 @@ export function themePalette(theme: { [key: string]: any }) {
       gray200BgColor: isDark ? { bgcolor: "#384368" } : { bgcolor: "transparent" },
     },
     loading: {
-      background: isDark ? theme.colors.darkLevel3 : theme.colors.paper,
+      background: isDark ? theme.colors.darkLevel1 : theme.colors.paper,
     },
   };
 }

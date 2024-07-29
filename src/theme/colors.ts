@@ -106,8 +106,8 @@ export default {
   darkSecondary200: "#b39ddb",
   darkSecondary800: "#6200ea",
 
-  defaultGradientStart: "#365E32",
-  defaultGradientEnd: "#059212",
+  defaultGradientStart: "#c40404",
+  defaultGradientEnd: "#d92d02",
 
   border0: "#28f77b",
 };

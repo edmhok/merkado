@@ -19,7 +19,7 @@ export default function ConnectWallet() {
             <Button
               variant="contained"
               onClick={() => walletManager(true)}
-              sx={{ width: "100%", maxWidth: "522px", marginTop: "23px" }}
+              sx={{ width: "100%", maxWidth: "562px", marginTop: "23px" }}
               size="large"
             >
               <Trans>Connect Wallet</Trans>
