@@ -2,6 +2,8 @@
 
 Merkado is a revolutionary NFT marketplace built on the Internet Computer Blockchain (ICP) utilizing the WICP token. It empowers creators and collectors with a secure and user-friendly platform for minting, trading, and managing NFTs.
 
+Check : https://xmxt7-qqaaa-aaaan-qmr5a-cai.icp0.io/
+
 ### Key Features
 
 - **NFT Minting:** Merkado offers seamless NFT creation, a user-friendly minting tool.
