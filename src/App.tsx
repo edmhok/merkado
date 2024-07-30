@@ -5,8 +5,8 @@ import { useFetchXDR2USD, useFetchGlobalTokenList } from "store/global/hooks";
 import { useFetchSnsAllTokensInfo } from "store/sns/hooks";
 import { Route } from "react-router-dom";
 import GoogleAnalytics, { initGoogleAnalytics } from "components/GoogleAnalytics";
-import { useConnectManager, useWalletConnectorManager } from "store/auth/hooks";
-import RiskStatement from "components/RiskStatement";
+import { useWalletConnectorManager } from "store/auth/hooks";
+// import RiskStatement from "components/RiskStatement";
 import { SnackbarProvider } from "components/notistack";
 import ErrorBoundary from "components/ErrorBoundary";
 import WalletConnector from "components/authentication/ConnectorModal";
@@ -33,7 +33,7 @@ export default function App() {
   useFetchICPPrices();
   useFetchInfoAllToken();
 
-  const { isConnected } = useConnectManager();
+  // const { isConnected } = useConnectManager();
 
   const [walletConnectorOpen] = useWalletConnectorManager();
 
@@ -62,7 +62,7 @@ export default function App() {
                   <Snackbar />
                   <FullscreenLoading />
                   <GlobalSteps />
-                  {isConnected ? <RiskStatement /> : null}
+                  {/* {isConnected ? <RiskStatement /> : null} */}
                   {walletConnectorOpen ? <WalletConnector /> : null}
                 </NavigationScroll>
               </ActorInitial>

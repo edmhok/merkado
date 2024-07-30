@@ -1,6 +1,6 @@
 import { Typography, Box } from "@mui/material";
 import { t } from "@lingui/macro";
-import AddToken from "components/Wallet/AddToken";
+// import AddToken from "components/Wallet/AddToken";
 
 type Item = {
   name: string;
@@ -30,7 +30,7 @@ export default function WalletPageToggle() {
           {item.name}
         </Typography>
       ))}
-      <AddToken />
+      {/* <AddToken /> */}
     </Box>
   );
 }

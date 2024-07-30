@@ -1,13 +1,12 @@
 ### Merkado: NFT IC Marketplace on the Internet Computer
 
-Merkado is a revolutionary NFT marketplace built on the Internet Computer Blockchain (ICP) utilizing the WICP token and ICSWAP decentralized exchange. It empowers creators and collectors with a secure and user-friendly platform for minting, trading, and managing NFTs.
+Merkado is a revolutionary NFT marketplace built on the Internet Computer Blockchain (ICP) utilizing the WICP token. It empowers creators and collectors with a secure and user-friendly platform for minting, trading, and managing NFTs.
 
 ### Key Features
 
-- **NFT Minting:** Merkado offers seamless NFT creation through Entrepot, a user-friendly minting tool.
+- **NFT Minting:** Merkado offers seamless NFT creation, a user-friendly minting tool.
 - **Collection Management:** Create and manage your own NFT collections, showcasing your digital assets with ease.
 - **ICSWAP Integration:** Leverage ICSWAP for seamless token exchange, ensuring smooth NFT transactions using WICP.
-- **Partnership Network:** Collaborate with leading ICSWAP collection partners to expand your reach and audience.
 - **ReactJS Frontend:** Experience a modern and intuitive user interface built with ReactJS for a smooth user experience.
 - **Material UI Integration:** Enjoy a visually appealing and user-friendly interface crafted with Material UI components.
 - **Candid Typescript Backend:** Ensure secure and robust functionalities with the power of Candid Typescript for backend development.
@@ -19,8 +18,6 @@ Merkado is a revolutionary NFT marketplace built on the Internet Computer Blockc
 **Backend:** Candid Typescript
 **Blockchain:** Internet Computer (ICP)
 **Token:** WICP
-**Decentralized Exchange:** ICSWAP
-**NFT Minting Tool:** Entrepot
 
 ### Getting Started
 
@@ -38,7 +35,7 @@ git clone https://github.com/edmhok/merkado.git
 ```
 
 ```
-cd mercado
+cd merkado
 ```
 
 Install dependencies:
@@ -61,11 +58,14 @@ pnpm run dev
 
 Open http://localhost:3000 in your web browser to access the Merkado application.
 
-Contributing
+## Contributing
+
 We welcome contributions from the community! If you'd like to contribute to Merkado, please refer to the CONTRIBUTING.md file for guidelines and instructions.
 
-License
+## License
+
 Merkado is licensed under the MIT License.
 
-Team
+## Team
+
 Mhokzone, NFTDavao Team

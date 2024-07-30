@@ -59,7 +59,7 @@ export default function Header() {
           <Box
             sx={{
               display: "flex",
-              gap: "30px 60px",
+              gap: "30px 20px",
               marginTop: "20px",
               justifyContent: "flex-end",
               "@media(max-width: 940px)": { gap: "0 8px" },

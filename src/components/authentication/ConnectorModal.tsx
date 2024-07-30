@@ -1,9 +1,9 @@
 import { makeStyles } from "@mui/styles";
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import Modal from "components/modal";
-import { Trans, t } from "@lingui/macro";
+import { t } from "@lingui/macro";
 import { Theme } from "@mui/material/styles";
-import { TextButton } from "components/index";
+// import { TextButton } from "components/index";
 import { Connector } from "constants/wallet";
 import { useWalletConnectorManager } from "store/auth/hooks";
 import PlugWalletLogo from "./icons/Plug.svg";
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme: Theme) => {
     walletWrapper: {
       cursor: "pointer",
       padding: "12px 16px",
-      background: "rgba(255, 255, 255, 0.08)",
+      background: "rgba(235, 162, 5, 0.08)",
       borderRadius: "8px",
       [theme.breakpoints.down("md")]: {
         padding: "8px 14px",
@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme: Theme) => {
     },
     walletComingSoon: {
       height: "80px",
-      background: "rgba(17, 25, 54, 0.4)",
+      background: "rgba(74, 7, 53 0.4)",
       border: "1px solid #29314F",
       borderRadius: "8px",
       [theme.breakpoints.down("md")]: {
@@ -93,7 +93,7 @@ export default function WalletConnector() {
     <Modal open={open} onClose={() => walletConnectorManager(false)} title={t`Connect a wallet`}>
       <Grid container alignItems="center" flexDirection="column">
         <Box className={classes.wrapper}>
-          <Box>
+          {/* <Box>
             <Typography
               sx={{
                 fontSize: "16px",
@@ -117,7 +117,7 @@ export default function WalletConnector() {
                 .
               </Trans>
             </Typography>
-          </Box>
+          </Box> */}
           <Box mt="24px">
             <Box className={classes.walletBox}>
               {Wallets.map((wallet) => (

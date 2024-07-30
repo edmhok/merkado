@@ -16,7 +16,7 @@ export default function NFTListHeader() {
 
       <Box
         sx={{
-          display: "flex",
+          display: "flex-start",
           gap: "0 10px",
         }}
       >
