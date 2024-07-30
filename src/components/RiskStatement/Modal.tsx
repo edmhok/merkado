@@ -91,7 +91,7 @@ export default function RiskStatementModal({
         <Box>
           <Typography>
             <Trans>
-              1. Waste2Earn is a decentralized financial hub under the Internet Computer, providing the transaction function
+              1. Merkado is a decentralized financial hub under the Internet Computer, providing the transaction function
               of various tokens and NFTs within its ecosystem and other services. All the services are deployed on the
               Internet Computer, and all transactions can be checked on the Internet Computer protocol. Only you can be
               responsible for your own funds. Please make sure to keep your funds safe and be vigilant of fraud.
@@ -101,7 +101,7 @@ export default function RiskStatementModal({
         <Box mt="30px">
           <Typography>
             <Trans>
-              2. The Internet Computer ecosystem is in its early stage. All functions of Waste2Earn have undergone multiple
+              2. The Internet Computer ecosystem is in its early stage. All functions of Merkado have undergone multiple
               rounds of internal and public testing and also iterative repair, but have not been audited yet. Please
               bear this in mind when using the platform.
             </Trans>
@@ -111,7 +111,7 @@ export default function RiskStatementModal({
           <Typography>
             <Trans>
               3. Anyone who has the seed phrase of a wallet address has control of the funds in that wallet. Never share
-              your seed phrase under any circumstances whatsoever, including with the Waste2Earn team.
+              your seed phrase under any circumstances whatsoever, including with the Merkado team.
             </Trans>
           </Typography>
         </Box>
@@ -120,7 +120,7 @@ export default function RiskStatementModal({
             <Trans>
               4. Please stay vigilant to phishing attacks and make sure you are visiting{" "}
               <Typography color="primary" component="span">
-                https://waste2earn.xyz
+                https://Merkado.xyz
               </Typography>{" "}
               - check the URL carefully.
             </Trans>
@@ -129,8 +129,8 @@ export default function RiskStatementModal({
         <Box mt="30px">
           <Typography>
             <Trans>
-              5. For any events and news about ICPSwap, please refer to Waste2earn's Twitter:{" "}
-              <TextButton link="https://x.com/waste2earn">https://x.com/waste2earn</TextButton> or @Waste2Earn
+              5. For any events and news about ICPSwap, please refer to Merkado's Twitter:{" "}
+              <TextButton link="https://x.com/waste2earn">https://x.com/waste2earn</TextButton> or @Merkado
             </Trans>
           </Typography>
         </Box>
@@ -163,7 +163,7 @@ export default function RiskStatementModal({
       </Box>
       <Box mt="5px">
         <Typography fontSize="10px">
-          <Trans>* The Waste2Earn founding team reserves right for the final explanation of all the statements.</Trans>
+          <Trans>* The Merkado founding team reserves right for the final explanation of all the statements.</Trans>
         </Typography>
       </Box>
     </Modal>

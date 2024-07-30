@@ -1,8 +1,8 @@
-// import Box from '@mui/material/Box';
+import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
-import { Typography } from '@mui/material';
-// import ReactPlayer from 'react-player';
+import { alpha, Typography } from '@mui/material';
+import Label from '../../../assets/images/merkado.png';
 import TypeWriterText from './TypeWriterText';
 
 export default function Hero() {
@@ -33,30 +33,31 @@ export default function Hero() {
                 </Typography>
 
             </Stack>
-            {/* <Box
+            <Box
                 id="image"
-            sx={(theme) => ({
-                mt: { xs: 2, sm: 2 },
-                alignSelf: 'center',
-                height: { xs: 252, sm: 649 },
-                width: '100%',
+                sx={(theme) => ({
+                    mt: { xs: 2, sm: 2 },
+                    alignContent: 'center',
+                    justifySelf: 'center',
+                    height: { xs: 252, sm: 400 },
+                    width: '100%',
 
-                backgroundSize: 'cover',
-                borderRadius: '10px',
-                outline: '1px solid',
-                outlineColor:
-                    theme.palette.mode === 'light'
-                        ? alpha('#BFCCD9', 0.5)
-                        : alpha('#9CCCFC', 0.1),
-                boxShadow:
-                    theme.palette.mode === 'light'
-                        ? `0 0 12px 8px ${alpha('#9CCCFC', 0.2)}`
-                        : `0 0 24px 12px ${alpha('#033363', 0.2)}`,
-            })}
+                    backgroundSize: 'cover',
+                    borderRadius: '10px',
+                    outline: '1px solid',
+                    outlineColor:
+                        theme.palette.mode === 'light'
+                            ? alpha('#BFCCD9', 0.5)
+                            : alpha('#9CCCFC', 0.1),
+                    boxShadow:
+                        theme.palette.mode === 'light'
+                            ? `0 0 12px 8px ${alpha('#9CCCFC', 0.2)}`
+                            : `0 0 24px 12px ${alpha('#033363', 0.2)}`,
+                })}
             >
 
-                <ReactPlayer url="/intro-video.mp4" width="100%" height="100%" borderRadius="10px" controls />
-            </Box> */}
+                <img src={Label} alt='label' width='100%' height='100%' />
+            </Box>
         </Container>
     );
 }

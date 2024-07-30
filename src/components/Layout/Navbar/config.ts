@@ -43,6 +43,11 @@ export const routes: Route[] = [
     path: "/marketplace/collections",
   },
   {
+    key: "create",
+    name: `Create`,
+    path: "/console/nft/canister/create",
+  },
+  {
     key: "followUS",
     name: `Follow US`,
     subMenus: [

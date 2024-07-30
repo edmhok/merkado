@@ -5,7 +5,7 @@ import { requestTransfer } from "@nfid/wallet";
 import { defaultWindowFeatures } from "@nfid/core";
 import { type CreateActorArgs, IConnector, ConnectorType, WalletConnectorConfig } from "./connectors";
 
-const APPLICATION_NAME = "Waste2Earn";
+const APPLICATION_NAME = "Merkado";
 const APPLICATION_LOGO_URL = "https://r7ftp-xaaaa-aaaag-qbbsq-cai.raw.ic0.app/ICPSwap_96x96.png";
 const APP_META = `applicationName=${APPLICATION_NAME}&applicationLogo=${APPLICATION_LOGO_URL}`;
 const AUTH_PATH = `/authenticate/?${APP_META}#authorize`;

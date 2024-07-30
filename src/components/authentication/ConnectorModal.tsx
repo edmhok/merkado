@@ -101,7 +101,7 @@ export default function WalletConnector() {
               }}
             >
               <Trans>
-                By connecting a wallet, you agree to Waste2Earn{" "}
+                By connecting a wallet, you agree to Merkado{" "}
                 <TextButton link="https://waste2earn.gitbook.io/w2e/legal-and-privacy/waste2earn-terms-of-service">
                   Terms of Service
                 </TextButton>{" "}

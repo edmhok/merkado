@@ -60,9 +60,9 @@ export default function Header() {
             sx={{
               display: "flex",
               gap: "30px 60px",
-              marginTop: "30px",
-              justifyContent: "flex-start",
-              "@media(max-width: 640px)": { gap: "0 8px" },
+              marginTop: "20px",
+              justifyContent: "flex-end",
+              "@media(max-width: 940px)": { gap: "0 8px" },
             }}
           >
             <ThemeSection />
@@ -72,7 +72,7 @@ export default function Header() {
       </Grid>
 
       <Drawer
-        anchor="left"
+        anchor="right"
         open={drawerOpen}
         onClose={() => setDrawerOpen(false)}
         sx={{

@@ -96,7 +96,7 @@ export const XTC = new Token({
 // w2e
 export const W2E_METADATA: TokenMetadata = {
   symbol: "W2E",
-  name: "Waste2Earn",
+  name: "Merkado",
   decimals: 18,
   canisterId: Principal.fromText(W2E_ID),
   metadata: [],

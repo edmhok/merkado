@@ -138,6 +138,7 @@ export default function ProfileSection() {
           variant="outlined"
           onClick={isConnected ? handleToggle : handleConnectWallet}
           color="primary"
+          style={{ padding: '10px', fontSize: 15 }}
         />
       </ButtonBase>
 

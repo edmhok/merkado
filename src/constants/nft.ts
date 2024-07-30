@@ -85,5 +85,5 @@ export const NFTTradeFee = 0.01;
 export const MAX_NFT_MINT_SUPPLY = 10000;
 
 export enum NFT_STANDARDS {
-  Waste2Earn = "Waste2Earn",
+  Merkado = "Merkado",
 }
