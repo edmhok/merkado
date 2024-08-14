@@ -1,10 +1,124 @@
+// import { makeStyles } from "@mui/styles";
+// import { useHistory } from "react-router-dom";
+// import { Card, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 
+
+// const useStyles = makeStyles(() => ({
+//   root: {
+//     maxWidth: 345,
+//   },
+//   heading: {
+//     textAlign: 'center',
+//     marginTop: '40px',
+//   },
+//   media: {
+//     height: 0,
+//     paddingTop: '56.25%', // 16:9
+//   },
+//   marketBtn: {
+//     marginTop: 10,
+//     display: 'block',
+//   },
+//   banner: {
+//     position: 'relative',
+//   },
+//   bannerimg: {
+//     maxWidth: '100%',
+//     borderRadius: '30px',
+//   },
+//   anchor: {
+//     position: 'absolute',
+//     bottom: '-15px',
+//     background: 'white',
+//     borderRadius: '100%',
+//     padding: '5px',
+//     width: '40px',
+//     border: '1px solid black',
+//     left: 'calc(50% - 20px)',
+//   },
+// }));
+
 export default function Home() {
+  // const classes = useStyles();
+
+  // const cards = [
+  //   {
+  //     title: 'BTC Flower',
+  //     link: '/marketplace/btcflower',
+  //     image: '/btcflower/collection.jpg',
+  //     content: (
+  //       <>
+  //         The BTC Flower: Created back in 2017 by famous contemporary artist Ludo in the
+  //         physical world – now moving to digital form on the Internet Computer
+  //       </>
+  //     ),
+  //   },
+  //   {
+  //     title: 'Cronic Wearables',
+  //     link: '/marketplace/wearables',
+  //     image: '/collections/cronic-wearables.jpg',
+  //     content: (
+  //       <>
+  //         We will be releasing the next set of Cronic NFTs - Cronic Wearables! These are a
+  //         seperate collection of NFTs that you can send to your Cronic!
+  //       </>
+  //     ),
+  //   },
+  //   {
+  //     title: 'Rise of the Magni',
+  //     link: '/',
+  //     image: '/collections/rotm.jpg',
+  //     content: (
+  //       <>
+  //         Another blockchain game by ToniqLabs, the first set of Magni NFTs will be
+  //         available for sale exclusively on <strong>Entrepot.app</strong>. Coming 2022!
+  //       </>
+  //     ),
+  //   },
+  // ];
+
   return (
     <>
       <Hero />
+      {/* <div style={{ width: '100%', display: 'block', position: 'relative' }}>
+        <div
+          style={{
+            maxWidth: 1200,
+            margin: '0px auto',
+          }}
+        >
+
+          <h1 className={classes.heading}>Latest Collections</h1>
+          <Grid container direction="row" justifyContent="center" alignItems="center">
+            {cards.slice(0, 3).map((card, i) => {
+              return (
+                <Grid key={i} item md={4} style={{ marginBottom: 20 }}>
+                  <Card className={classes.root}>
+                    <CardMedia
+                      className={classes.media}
+                      image={card.image}
+                      title={card.title}
+                    />
+                    <CardContent>
+                      <h3>{card.title}</h3>
+                      <Typography
+                        variant="body1"
+                        color="textSecondary"
+                        component="p"
+                      >
+                        {card.content}
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </Grid>
+              );
+            })}
+          </Grid>
+
+        </div>
+      </div> */}
       <Footer />
     </>
   );

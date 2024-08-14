@@ -51,7 +51,7 @@ export function theme(customization: DynamicObject) {
       themeOption.menuBackground = colors.darkLevel1;
       themeOption.menuSelected = colors.darkSecondaryMain;
       themeOption.menuSelectedBack = colors.darkSecondaryMain + 15;
-      themeOption.menuSelected = colors.paper;
+      themeOption.menuSelected = colors.darkPaper;
       themeOption.divider = colors.darkTextPrimary;
       themeOption.heading = colors.darkTextSecondary;
       break;
@@ -92,8 +92,8 @@ export function theme(customization: DynamicObject) {
     },
     typography: themeTypography(themeOption),
     components: componentStyleOverrides(themeOption),
-    themeOption,
     colors,
+    themeOption,
     fontSize,
     customization,
     radius: Radius,

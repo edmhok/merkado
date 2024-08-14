@@ -12,7 +12,7 @@ import { Modal, NumberTextField } from "components/index";
 import { WRAPPED_ICP_TOKEN_INFO, ResultStatus } from "constants/index";
 import type { NFTTokenMetadata, ActorIdentity } from "@w2e/types";
 import { NFTTradeFee } from "constants/nft";
-import WICPCurrencyImage from "assets/images/wicp_currency.svg";
+import WICPCurrencyImage from "assets/images/icons/icp.svg";
 import LazyImage from "components/LazyImage";
 import { encodeTokenIdentifier } from "utils/nft/index";
 import { getLocaleMessage } from "locales/services";

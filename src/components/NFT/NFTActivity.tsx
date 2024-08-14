@@ -46,9 +46,9 @@ export default function NFTActivity({
               <TableCell>
                 <Trans>Time</Trans>
               </TableCell>
-              {/* <TableCell>
+              <TableCell>
                 <Trans>Type</Trans>
-              </TableCell> */}
+              </TableCell>
               <TableCell>
                 <Trans>seller</Trans>
               </TableCell>

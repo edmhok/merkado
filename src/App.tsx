@@ -6,7 +6,6 @@ import { useFetchSnsAllTokensInfo } from "store/sns/hooks";
 import { Route } from "react-router-dom";
 import GoogleAnalytics, { initGoogleAnalytics } from "components/GoogleAnalytics";
 import { useWalletConnectorManager } from "store/auth/hooks";
-// import RiskStatement from "components/RiskStatement";
 import { SnackbarProvider } from "components/notistack";
 import ErrorBoundary from "components/ErrorBoundary";
 import WalletConnector from "components/authentication/ConnectorModal";
@@ -62,7 +61,6 @@ export default function App() {
                   <Snackbar />
                   <FullscreenLoading />
                   <GlobalSteps />
-                  {/* {isConnected ? <RiskStatement /> : null} */}
                   {walletConnectorOpen ? <WalletConnector /> : null}
                 </NavigationScroll>
               </ActorInitial>

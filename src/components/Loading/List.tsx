@@ -42,7 +42,7 @@ export default function ListLoading({ loading, mask = true, maskBackground }: Li
         className={mask ? classes.mask : ""}
         sx={{ background: maskBackground || theme.palette.loading.background }}
       />
-      <img style={{ zIndex: 2 }} width="80px" height="80px" src={LoadingImage} alt="" />
+      <img style={{ zIndex: 2 }} width="280px" height="280px" src={LoadingImage} alt="" />
     </Grid>
   ) : null;
 }

@@ -56,7 +56,7 @@ export default function MobileNavbar({ onClose }: MobileNavbarProps) {
       </Box>
 
       <Box sx={{ padding: "0 20px", margin: "32px 0 0 0" }}>
-        <Box sx={{ width: "100%", height: "1px", background: "#29314F" }} />
+        <Box sx={{ width: "100%", height: "1px", background: "#202020" }} />
       </Box>
 
       <Box>
@@ -67,7 +67,7 @@ export default function MobileNavbar({ onClose }: MobileNavbarProps) {
             <Box
               sx={{
                 padding: "24px 16px",
-                borderTop: "1px solid #29314F",
+                borderTop: "1px solid #202020",
                 display: "flex",
                 justifyContent: "space-between",
                 alignItems: "center",

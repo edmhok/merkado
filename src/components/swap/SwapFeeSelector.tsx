@@ -41,7 +41,7 @@ export const feeFormat = (feeValue: number) => {
 };
 
 const useStyle = makeStyles((theme: Theme) => {
-  const border = "1px solid #29314F";
+  const border = "1px solid #202020";
 
   return {
     feeItem: {

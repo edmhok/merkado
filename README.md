@@ -1,14 +1,15 @@
 ### Merkado: NFT IC Marketplace on the Internet Computer
 
-Merkado is a revolutionary NFT marketplace built on the Internet Computer Blockchain (ICP) utilizing the WICP token. It empowers creators and collectors with a secure and user-friendly platform for minting, trading, and managing NFTs.
+Merkado is a NFT marketplace built on the Internet Computer Blockchain (ICP) utilizing the ICP token. It empowers creators and collectors with a secure and user-friendly platform for minting, trading, and managing NFTs. Our Minting Tool utilized Entrepot["https://jfosu-pqaaa-aaaal-qcifq-cai.raw.icp0.io/"]
 
-Check : https://xmxt7-qqaaa-aaaan-qmr5a-cai.icp0.io/
+Website : https://xmxt7-qqaaa-aaaan-qmr5a-cai.icp0.io/
+
+Video Presentation : https://youtu.be/tmwBBJM3_Uc
 
 ### Key Features
 
 - **NFT Minting:** Merkado offers seamless NFT creation, a user-friendly minting tool.
 - **Collection Management:** Create and manage your own NFT collections, showcasing your digital assets with ease.
-- **ICSWAP Integration:** Leverage ICSWAP for seamless token exchange, ensuring smooth NFT transactions using WICP.
 - **ReactJS Frontend:** Experience a modern and intuitive user interface built with ReactJS for a smooth user experience.
 - **Material UI Integration:** Enjoy a visually appealing and user-friendly interface crafted with Material UI components.
 - **Candid Typescript Backend:** Ensure secure and robust functionalities with the power of Candid Typescript for backend development.
@@ -17,9 +18,8 @@ Check : https://xmxt7-qqaaa-aaaan-qmr5a-cai.icp0.io/
 
 **Frontend:** ReactJS
 **UI Framework:** Material UI
-**Backend:** Candid Typescript
 **Blockchain:** Internet Computer (ICP)
-**Token:** WICP
+**Token:** ICP
 
 ### Getting Started
 

@@ -102,7 +102,7 @@ export default function NFTBuyReview({
       <Box
         sx={{
           borderRadius: "12px",
-          border: "1px solid #29314F",
+          border: "1px solid #202020",
           background: theme.palette.background.level4,
           padding: "12px",
         }}
@@ -257,11 +257,11 @@ export default function NFTBuyReview({
           {tradeTokenBalance
             ? parseTokenAmount(tradeTokenBalance.toString(), WRAPPED_ICP_TOKEN_INFO.decimals).toFormat()
             : 0}{" "}
-          WICP
+          ICP
         </Typography>
         <Box sx={{ position: "absolute", right: "0", top: "0" }}>
           <TextButton to="/swap/v2/wrap" sx={{ fontWeight: "500", "@media (max-width: 640px)": { fontSize: "12px" } }}>
-            Get WICP
+            Get ICP
           </TextButton>
         </Box>
       </Grid>

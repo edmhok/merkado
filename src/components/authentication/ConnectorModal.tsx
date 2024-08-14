@@ -42,8 +42,8 @@ const useStyles = makeStyles((theme: Theme) => {
     },
     walletComingSoon: {
       height: "80px",
-      background: "rgba(74, 7, 53 0.4)",
-      border: "1px solid #29314F",
+      background: "rgba(140, 6, 59, 0.45)",
+      border: "1px solid #9c0e89",
       borderRadius: "8px",
       [theme.breakpoints.down("md")]: {
         height: "64px",
@@ -93,31 +93,6 @@ export default function WalletConnector() {
     <Modal open={open} onClose={() => walletConnectorManager(false)} title={t`Connect a wallet`}>
       <Grid container alignItems="center" flexDirection="column">
         <Box className={classes.wrapper}>
-          {/* <Box>
-            <Typography
-              sx={{
-                fontSize: "16px",
-                lineHeight: "20px",
-              }}
-            >
-              <Trans>
-                By connecting a wallet, you agree to Merkado{" "}
-                <TextButton link="https://waste2earn.gitbook.io/w2e/legal-and-privacy/waste2earn-terms-of-service">
-                  Terms of Service
-                </TextButton>{" "}
-                and acknowledge that you have read and understand the{" "}
-                <TextButton
-                  link="https://waste2earn.gitbook.io/w2e/legal-and-privacy/waste2earn-disclaimer"
-                  sx={{
-                    marginLeft: "0!important",
-                  }}
-                >
-                  Disclaimer
-                </TextButton>
-                .
-              </Trans>
-            </Typography>
-          </Box> */}
           <Box mt="24px">
             <Box className={classes.walletBox}>
               {Wallets.map((wallet) => (

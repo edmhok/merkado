@@ -28,11 +28,11 @@ export function isDarkTheme(theme: any): boolean {
 
 export function isICPSwapOfficial(account: string | undefined): boolean {
   return (
-    account === "b2b33b29fa0f9458ec7ba0025f6a53126043fad143dd17619d5f162f41e69869" ||
-    account === "e695fda51d898ad6f46211d8f468f85dd1364819e52c7740e4b4db90918ea6bc" ||
-    account === "fbe00b464da19fc7bf234cf05e376631ad896163558174c375f6e9be96d95e95" ||
-    account === "1ce94412fa0ad3b93132c651105d86e17bb87bafc78e9010a9e24a47a98e5b03" ||
-    account === "9b0812ed39fe6e63c442d7a81672c0c2568ce10011dffc0e50a635250ff6967f"
+    account === "b2b33b29fa0f9458ec7ba0025f6a53126043fad143dd17619d5f162f41e69869"
+    // account === "e695fda51d898ad6f46211d8f468f85dd1364819e52c7740e4b4db90918ea6bc" ||
+    // account === "fbe00b464da19fc7bf234cf05e376631ad896163558174c375f6e9be96d95e95" ||
+    // account === "1ce94412fa0ad3b93132c651105d86e17bb87bafc78e9010a9e24a47a98e5b03" ||
+    // account === "9b0812ed39fe6e63c442d7a81672c0c2568ce10011dffc0e50a635250ff6967f"
   );
 }
 

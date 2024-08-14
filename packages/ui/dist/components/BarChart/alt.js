@@ -45,7 +45,7 @@ export function BarChartAlt(_a) {
                             setLabel(undefined);
                         if (setValue)
                             setValue(undefined);
-                    }, children: [_jsx(XAxis, { dataKey: "time", axisLine: false, tickLine: false, tickFormatter: (time) => dayjs(time).format(activeWindow === "monthly" ? "MMM" : tickFormat), minTickGap: 10, tick: { fill: theme.palette.text.secondary } }), _jsx(Tooltip, { cursor: { fill: "#29314F" }, contentStyle: { display: "none" }, 
+                    }, children: [_jsx(XAxis, { dataKey: "time", axisLine: false, tickLine: false, tickFormatter: (time) => dayjs(time).format(activeWindow === "monthly" ? "MMM" : tickFormat), minTickGap: 10, tick: { fill: theme.palette.text.secondary } }), _jsx(Tooltip, { cursor: { fill: "#202020" }, contentStyle: { display: "none" }, 
                             // @ts-ignore
                             formatter: (value, name, props) => {
                                 if (setValue && parsedValue !== props.payload.value) {

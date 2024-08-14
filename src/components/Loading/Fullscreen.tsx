@@ -49,7 +49,7 @@ export default function FullscreenLoading({
 
   return (
     <Backdrop className={classes.backdrop} open={open} onClick={onClick}>
-      <img width="80px" height="80px" src={LoadingImage} alt="" />
+      <img width="280px" height="280px" src={LoadingImage} alt="" />
     </Backdrop>
   );
 }

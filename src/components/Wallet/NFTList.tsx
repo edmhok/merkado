@@ -14,9 +14,9 @@ import WalletContext from "components/Wallet/context";
 import { useEXTAllCollections, useExtUserNFTs } from "@w2e/hooks";
 
 const ICPSwapPositionNFTs = [
-  "jwh2l-aqaaa-aaaan-qatdq-cai",
-  "brx5n-xqaaa-aaaan-qanqa-cai",
-  "4lnl6-hqaaa-aaaag-qblla-cai",
+  // "jwh2l-aqaaa-aaaan-qatdq-cai",
+  // "brx5n-xqaaa-aaaan-qanqa-cai",
+  // "4lnl6-hqaaa-aaaag-qblla-cai",
 
   'cdvmq-aaaaa-aaaah-qcdoq-cai',
   'ckwhm-wiaaa-aaaah-qcdpa-cai',

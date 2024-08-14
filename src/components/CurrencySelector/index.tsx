@@ -24,7 +24,6 @@ export default function CurrencySelector({
   bgGray = false,
   loading,
   disabled = false,
-  version,
 }: CurrencySelectorProps) {
   const [selectorShow, setSelectorShow] = useState(false);
 
@@ -68,7 +67,7 @@ export default function CurrencySelector({
           onChange={onTokenChange}
           disabledCurrencyIds={disabledCurrencyIds}
           activeCurrencyIds={activeCurrencyIds}
-          version={version}
+          version="v2"
         />
       )}
     </>

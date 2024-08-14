@@ -28,10 +28,10 @@ export default function V3Event({ onClick }: { onClick: () => void }) {
   };
 
   return (
-    <Grid container alignItems="center" sx={{ height: "52px", background: "#B79C4A", padding: "0 20px" }}>
+    <Grid container alignItems="center" sx={{ height: "52px", background: "#B79C4A", padding: "0 20px", marginTop: "40px" }}>
       <Grid item xs onClick={handleToTwitter}>
         <Typography sx={{ color: "#ffffff", cursor: "pointer", "@media(max-width: 640px)": { fontSize: "12px" } }}>
-          <Trans>We have launched wOrganic for Yellow Drum.</Trans>
+          <Trans>Watch out for NFT freebies.</Trans>
         </Typography>
       </Grid>
 

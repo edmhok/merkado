@@ -37,7 +37,7 @@ export default ({ loading, mask = false }: StaticLoadingProps) => {
   return loading ? (
     <Grid className={classes.loadingContainer} container justifyContent="center" alignContent="center">
       <Box className={mask ? classes.mask : ""} />
-      <img style={{ zIndex: 2 }} width="80px" height="80px" src={LoadingImage} alt="" />
+      <img style={{ zIndex: 2 }} width="280px" height="280px" src={LoadingImage} alt="" />
     </Grid>
   ) : null;
 };

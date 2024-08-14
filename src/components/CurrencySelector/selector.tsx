@@ -237,7 +237,7 @@ export interface SelectorProps {
   onClose: () => void;
   disabledCurrencyIds?: string[];
   activeCurrencyIds?: string[];
-  version?: "v2" | "v3";
+  version: "v2" | "v3";
 }
 
 type TokenAdditionalData = {
@@ -262,7 +262,7 @@ export default function Selector({
   const [tokenAdditionalData, setTokenAdditionalData] = useState({} as TokenAdditionalData);
 
   const [taggedTokenIds] = useTaggedTokenManager();
-  const originList = useSwapTokenList(version);
+  const originList = useSwapTokenList();
   const isDark = isDarkTheme(theme);
 
   const list = useMemo(() => {

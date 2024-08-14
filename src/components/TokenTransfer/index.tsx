@@ -11,7 +11,7 @@ import { useErrorTip, useSuccessTip } from "hooks/useTips";
 import { makeStyles } from "@mui/styles";
 import { Button, Grid, Typography, Box, InputAdornment } from "@mui/material";
 import Identity, { CallbackProps, SubmitLoadingProps } from "components/Identity/index";
-import { ICP, W2E } from "constants/tokens";
+import { ICP, WRAPPED_ICP } from "constants/tokens";
 import CircularProgress from "@mui/material/CircularProgress";
 import { Trans, t } from "@lingui/macro";
 import { tokenTransfer } from "hooks/token/calls";
@@ -153,7 +153,7 @@ export default function TransferModal({ open, onClose, onTransferSuccess, token,
         openSuccessTip(t`Transferred successfully`);
         setValues(initialValues);
         if (onTransferSuccess) onTransferSuccess();
-        if (token.canisterId.toString() === ICP.address || token.canisterId.toString() === W2E.address) {
+        if (token.canisterId.toString() === ICP.address || token.canisterId.toString() === WRAPPED_ICP.address) {
           if (setRefreshTotalBalance) setRefreshTotalBalance(!refreshTotalBalance);
         }
       } else {

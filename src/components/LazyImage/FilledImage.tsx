@@ -23,7 +23,7 @@ export default function FilledImage({ Icon, theme, height, ...props }: FilledIma
         justifyContent="center"
         alignItems="center"
         sx={{
-          background: theme === "dark" ? "#29314F" : "#e3e3e3",
+          background: theme === "dark" ? "#202020" : "#e3e3e3",
           width: "100%",
           height: "100%",
           position: "absolute",

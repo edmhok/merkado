@@ -166,9 +166,9 @@ export default function NFTCanisterCreate() {
 
   const getErrorMsg = (values: CanisterCreateDetails) => {
     if (!values.name) return t`Enter collection name`;
-    if (values.name && values.name.toLocaleLowerCase().includes("icpswap")) return t`Invalid collection name`;
+    if (values.name && values.name.toLocaleLowerCase().includes("merkado")) return t`Invalid collection name`;
     if (!values.minter) return t`Enter the creator`;
-    if (values.minter && values.minter.toLocaleLowerCase().includes("icpswap")) return t`Invalid collection creator`;
+    if (values.minter && values.minter.toLocaleLowerCase().includes("merkado")) return t`Invalid collection creator`;
     if (!values.introduction) return t`Enter the description`;
     if ((values.socialMediaLinks ?? []).length > 0) {
       for (let i = 0; i < values.socialMediaLinks.length; i++) {
@@ -338,7 +338,7 @@ export default function NFTCanisterCreate() {
                             <InputAdornment position="end">
                               <HighlightOffIcon
                                 sx={{
-                                  color: "#111936",
+                                  color: "#36210c",
                                   fontSize: "20px",
                                   cursor: "pointer",
                                 }}

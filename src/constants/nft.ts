@@ -2,8 +2,8 @@ import { V3SwapNFTCanisterId } from "constants/canister";
 import V2Ids from "constants/swap-v2-ids.json";
 
 export const OFFICIAL_CANISTER_IDS = [
-  "e7xmv-vyaaa-aaaag-qahha-cai",
-  // "ewuhj-dqaaa-aaaag-qahgq-cai",
+  // "e7xmv-vyaaa-aaaag-qahha-cai",
+  "ewuhj-dqaaa-aaaag-qahgq-cai",
   // "brx5n-xqaaa-aaaan-qanqa-cai",
   V2Ids.V3SwapNFTCanister.ic,
   V3SwapNFTCanisterId,
@@ -12,7 +12,7 @@ export const OFFICIAL_CANISTER_IDS = [
 // for controller get canister's image
 export const OLD_CANISTER_IDS = [
   "ewuhj-dqaaa-aaaag-qahgq-cai",
-  "e7xmv-vyaaa-aaaag-qahha-cai",
+  // "e7xmv-vyaaa-aaaag-qahha-cai",
   // "ey3ct-4aaaa-aaaak-aaueq-cai",
   // "wpojy-qiaaa-aaaak-acfva-cai",
   // "brx5n-xqaaa-aaaan-qanqa-cai",

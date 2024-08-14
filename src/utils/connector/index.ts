@@ -10,7 +10,7 @@ import { NF_IDConnector } from "./NF_ID";
 import type { IConnector } from "./connectors";
 import { PlugConnector } from "./plug";
 import { InfinityConnector } from "./infinity";
-import { MeConnector } from "./me";
+// import { MeConnector } from "./me";
 
 type ConnectorClass = { new (...args: any[]): IConnector };
 
@@ -63,8 +63,8 @@ export class WalletConnector {
         return new PlugConnector(config);
       case Connector.INFINITY:
         return new InfinityConnector(config);
-      case Connector.ME:
-        return new MeConnector(config);
+      // case Connector.ME:
+      //   return new MeConnector(config);
       default:
         throw new Error(`Connector error ${Connector}: Not support this connect for now`);
     }

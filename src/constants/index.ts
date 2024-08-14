@@ -41,7 +41,7 @@ export const CurrencyAmountFormatDecimals = (decimals: number | bigint | undefin
 };
 
 export const INFO_URL_MAP = {
-  [NETWORK.IC]: "https://icpex.org",
+  [NETWORK.IC]: "https://icpswap.org",
   [NETWORK.LOCAL]: "https://66jms-2yaaa-aaaaa-aabha-cai.dtest.app",
 };
 

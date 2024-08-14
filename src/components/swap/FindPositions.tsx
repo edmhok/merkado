@@ -101,6 +101,7 @@ function SelectedToken({ selectedTokenIds, onTokenChange }: SelectedTokenProps) 
         onClose={() => setSelectorOpen(false)}
         onChange={handleTokenChange}
         disabledCurrencyIds={selectedTokenIds}
+        version="v2"
       />
     </>
   );

@@ -1,5 +1,5 @@
 import { useHistory } from "react-router";
-import { Grid, Typography, ButtonBase, Box } from "@mui/material";
+import { Grid, Typography, Box } from "@mui/material";
 import { useTheme, makeStyles } from "@mui/styles";
 import CollectionDemo from "assets/images/nft/collection_demo.svg";
 import CollectionLogo from "assets/images/nft/collection_logo.svg";

@@ -67,7 +67,7 @@ export default ({
             </Grid>
           </Grid>
 
-          {/* <Grid container mt={3}>
+          <Grid container mt={3}>
             <Grid item xs>
               <Typography>Canister Size</Typography>
             </Grid>
@@ -76,7 +76,7 @@ export default ({
                 {details.name}
               </Typography>
             </Grid>
-          </Grid> */}
+          </Grid>
 
           <Grid container mt={3}>
             <Grid item xs>

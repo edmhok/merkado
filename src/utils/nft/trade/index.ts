@@ -4,7 +4,7 @@ import { BaseNFTsTradeAdapter } from "./BaseNFTAdapter";
 import { ICPSwapTradeAdapter } from "./ICPSwapNFTTradeAdapter";
 
 export enum TradeAdapterName {
-  ICPSwap = "ICPSwap",
+  ICPSwap = "Merkado",
 }
 
 export class NFTsTradeAdapter {

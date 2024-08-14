@@ -30,7 +30,7 @@ export const routes: Route[] = [
   {
     key: "feedback",
     name: "Be a Member",
-    link: "https://forms.gle/6HAoWACwaRyZ5Wgc9",
+    path: "/feedback",
   },
   {
     key: "collection",
@@ -45,7 +45,7 @@ export const routes: Route[] = [
   {
     key: "create",
     name: `Create`,
-    path: "/console/nft/canister/create",
+    link: "https://jfosu-pqaaa-aaaal-qcifq-cai.raw.icp0.io/dashboard/collections",
   },
   // {
   //   key: "followUS",

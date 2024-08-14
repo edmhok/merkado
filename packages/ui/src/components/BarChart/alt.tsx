@@ -108,7 +108,7 @@ export function BarChartAlt({
             tick={{ fill: theme.palette.text.secondary }}
           />
           <Tooltip
-            cursor={{ fill: "#29314F" }}
+            cursor={{ fill: "#202020" }}
             contentStyle={{ display: "none" }}
             // @ts-ignore
             formatter={(value: number, name: string, props: { payload: { time: string; value: number } }) => {

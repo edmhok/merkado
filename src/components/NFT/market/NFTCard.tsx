@@ -6,7 +6,7 @@ import { Trans } from "@lingui/macro";
 import { TradeOrder } from "types";
 import { Theme } from "@mui/material/styles";
 import { WRAPPED_ICP_TOKEN_INFO } from "constants/index";
-import WICPCurrencyImage from "assets/images/wicp_currency.svg";
+import WICPCurrencyImage from "assets/images/icons/icp.svg";
 import { parseTokenAmount } from "@w2e/utils";
 import { useAccount } from "store/global/hooks";
 import NFTBuyReview from "components/NFT/market/NFTBuyReview";

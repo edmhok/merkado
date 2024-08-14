@@ -42,7 +42,7 @@ export function Routes({ routes, onRouteClick }: RoutesProps) {
             onClick={() => handleRouteClick(route)}
             sx={{
               padding: "24px 16px",
-              borderBottom: "1px solid #29314F",
+              borderBottom: "1px solid #202020",
               "&:last-type-of": {
                 borderBottom: "none",
               },

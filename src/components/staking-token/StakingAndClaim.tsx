@@ -15,7 +15,7 @@ const useStyle = makeStyles((theme: Theme) => ({
     width: "28px",
     height: "28px",
     lineHeight: "100%",
-    background: "#29314F",
+    background: "#202020",
     borderRadius: "8px",
     fontSize: "28px",
     fontWeight: "normal",

@@ -175,7 +175,7 @@ const useSetPriceStyle = makeStyles((theme: Theme) => {
       },
     },
     startPrice: {
-      border: isDarkTheme(theme) ? "1px solid #29314F" : `1px solid ${theme.colors.lightGray200BorderColor}`,
+      border: isDarkTheme(theme) ? "1px solid #202020" : `1px solid ${theme.colors.lightGray200BorderColor}`,
       background: isDarkTheme(theme) ? "transparent" : "#fff",
       borderRadius: "12px",
       height: "51px",
@@ -202,7 +202,7 @@ const useSetPriceStyle = makeStyles((theme: Theme) => {
       textTransform: "none",
       "&:hover": {
         backgroundColor: theme.palette.mode === "dark" ? theme.palette.dark.light + 20 : theme.palette.primary.light,
-        borderColor: theme.palette.mode === "dark" ? "#29314F" : theme.palette.grey[100],
+        borderColor: theme.palette.mode === "dark" ? "#202020" : theme.palette.grey[100],
       },
     },
     warningText: {

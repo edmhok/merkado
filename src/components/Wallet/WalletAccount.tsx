@@ -29,7 +29,7 @@ export function AddressWrapper({ address, label }: AddressWrapperProps) {
         maxWidth: "286px",
         borderRadius: "8px",
         padding: "5px",
-        border: "1px solid #29314F",
+        border: "1px solid #202020",
         height: "fit-content",
         "@media(max-width: 640px)": {
           maxWidth: "100%",
@@ -41,7 +41,7 @@ export function AddressWrapper({ address, label }: AddressWrapperProps) {
           width: "70px",
           height: "20px",
           borderRadius: "30px",
-          background: "#29314F",
+          background: "#202020",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -110,7 +110,7 @@ export default function WalletAccount() {
         justifyContent: "center",
         alignItems: "center",
         padding: "0 0 30px 0",
-        borderBottom: "1px solid #29314F",
+        borderBottom: "1px solid #202020",
         "@media(max-width: 286px)": {
           gap: "20px 0",
         },

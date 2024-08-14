@@ -84,7 +84,7 @@ export function themePalette(theme: { [key: string]: any }) {
     border: {
       normal: isDark ? "1px solid #313A5A" : `1px solid ${theme.colors.lightGray200BorderColor}`,
       border0: "1px solid #528078",
-      gray200: isDark ? "1px solid #29314F" : `1px solid ${theme.colors.lightGray200BorderColor}`,
+      gray200: isDark ? "1px solid #202020" : `1px solid ${theme.colors.lightGray200BorderColor}`,
     },
     avatar: {
       gray200BgColor: isDark ? { bgcolor: "#384368" } : { bgcolor: "transparent" },
